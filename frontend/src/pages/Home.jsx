@@ -382,7 +382,7 @@ const Home = () => {
       </Box>
 
       {/* Services Section */}
-      <Box sx={{ py: 2, mt: 6, mb: 10}}>
+      <Box sx={{ py: 2, mt: 6, mb: 10, width:'100%', ml:4}}>
         <Container>
           <Typography
             variant="h4"
@@ -608,9 +608,9 @@ const Home = () => {
           transform: translateY(0);
         }
       `}</style>
-
-          <Box sx={{ gap: 2, mb: 1 }}>
-      <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+    <Box display={"flex"}>
+      <Box sx={{ gap: 2, mb: 1, ml:"20%" }}>
+      <Box sx={{ display: "flex", alignItems: "center", gap: 1, mb:3}}>
         <IconButton
           component="a"
           href="https://linkedin.com"
@@ -620,9 +620,9 @@ const Home = () => {
         >
           <LinkedInIcon />
         </IconButton>
-        <Typography variant="body2" color="white">LinkedIn</Typography>
+        <Typography variant="body2" color="white">LinkedIn profile of the  company</Typography>
       </Box>
-      <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+      <Box sx={{ display: "flex", alignItems: "center", gap: 1, mb:3 }}>
         <IconButton
           component="a"
           href="https://instagram.com"
@@ -632,7 +632,7 @@ const Home = () => {
         >
           <InstagramIcon />
         </IconButton>
-        <Typography variant="body2" color="white">Instagram</Typography>
+        <Typography variant="body2" color="white">Instagram profile of the  company</Typography>
       </Box>
       <Box sx={{ display: "flex", alignItems: "center", }}>
         <IconButton
@@ -644,14 +644,16 @@ const Home = () => {
         >
           <FacebookIcon />
         </IconButton>
-        <Typography variant="body2" color="white">Facebook</Typography>
+        <Typography variant="body2" color="white">Facebook profile of the company</Typography>
+      </Box>
+
+      </Box>
+      <Box sx={{mt:10, ml:40}}>
+      <Typography variant="body2" color="white" sx={{mb:4}}>Contact : </Typography>
+      <Typography variant="body2" color="white">Email : hr@empsoftetch.com</Typography>
       </Box>
 
     </Box>
-    <Box>
-      <Typography variant="body2" color="white">Contact : </Typography>
-      <Typography variant="body2" color="white">Email : hr@empsoftetch.com</Typography>
-      </Box>
     </>
   );
 };
