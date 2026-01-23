@@ -28,27 +28,27 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import logo from '../assects/backgroundimage.png';
 
 /* ---------------- Counter ---------------- */
-const Counter = ({ label, value }) => {
-  const [count, setCount] = useState(0);
+// const Counter = ({ label, value }) => {
+//   const [count, setCount] = useState(0);
 
-  useEffect(() => {
-    let start = 0;
-    const inc = value / 40;
-    const timer = setInterval(() => {
-      start += inc;
-      start >= value ? setCount(value) : setCount(Math.ceil(start));
-      if (start >= value) clearInterval(timer);
-    }, 40);
-    return () => clearInterval(timer);
-  }, [value]);
+//   useEffect(() => {
+//     let start = 0;
+//     const inc = value / 40;
+//     const timer = setInterval(() => {
+//       start += inc;
+//       start >= value ? setCount(value) : setCount(Math.ceil(start));
+//       if (start >= value) clearInterval(timer);
+//     }, 40);
+//     return () => clearInterval(timer);
+//   }, [value]);
 
-  return (
-    <Box textAlign="center">
-      <Typography variant="h4" fontWeight="bold">{count}+</Typography>
-      <Typography color="text.secondary">{label}</Typography>
-    </Box>
-  );
-};
+//   return (
+//     <Box textAlign="center">
+//       <Typography variant="h4" fontWeight="bold">{count}+</Typography>
+//       <Typography color="text.secondary">{label}</Typography>
+//     </Box>
+//   );
+// };
 
 /* ---------------- Scroll Animation ---------------- */
 const useFadeUp = () => {
