@@ -11,6 +11,13 @@ import PythonService from "./pages/services/PythonService";
 import DevOpsService from "./pages/services/DevOpsService";
 import TestingService from "./pages/services/TestingService";
 import Ai from "./pages/services/AiService";
+import WhoWeAre from "./pages/about/Weare";
+import Whatwedo from "./pages/about/Whatwedo";
+import Ourexperience from "./pages/about/Ourexperience";
+import Ourmission from "./pages/about/Ourmission";
+import Ourvalues from "./pages/about/Ourvalues";
+import Ourvision from "./pages/about/Ourvision";
+
 
 function App() {
   return (
@@ -19,6 +26,12 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/about/who-we-are" element={<WhoWeAre />} />
+        <Route path="/about/what-we-do" element={<Whatwedo />} />
+        <Route path="/about/Our-mission" element={<Ourmission />} />
+        <Route path="/about/Our-values" element={<Ourvalues />} />
+        <Route path="/about/Our-experience" element={<Ourexperience />} />
+        <Route path="/about/Our-vision" element={<Ourvision />} />
         <Route path="/services" element={<Services />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />

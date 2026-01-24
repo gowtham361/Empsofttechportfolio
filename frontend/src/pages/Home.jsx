@@ -91,37 +91,37 @@ const Home = () => {
       icon: <BusinessIcon />,
       title: "Who We Are",
       text: "Technology-driven software services company.",
-      link: "/who-we-are"
+      link: "/about/who-we-are"
     },
     {
       icon: <BuildIcon />,
       title: "What We Do",
       text: "End-to-end IT solutions using modern tech.",
-      link: "/what-we-do"
+      link: "/about/what-we-do"
     },
     {
       icon: <WorkHistoryIcon />,
       title: "Our Experience",
       text: "HRMS, LMS & enterprise platforms.",
-      link: "/experience"
+      link: "/about/Our-experience"
     },
     {
       icon: <VerifiedIcon />,
       title: "Our Values",
       text: "Quality, innovation & transparency.",
-      link: "/values"
+      link: "/about/Our-values"
     },
     {
       icon: <FlagIcon />,
       title: "Our Mission",
       text: "Deliver reliable & scalable digital solutions.",
-      link: "/mission"
+      link: "/about/Our-mission"
     },
     {
       icon: <VisibilityIcon />,
       title: "Our Vision",
       text: "Be a globally trusted technology partner.",
-      link: "/vision"
+      link: "/about/Our-vision"
     }
   ];
 

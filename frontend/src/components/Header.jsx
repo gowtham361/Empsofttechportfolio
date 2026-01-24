@@ -29,7 +29,7 @@ const Header = () => {
   );
 
   return (
-    <AppBar position="static">
+    <AppBar position="fixed">
       <Toolbar>
         <img src={logo} alt="EMP Softech Logo" style={{ height: '40px', marginRight: '10px' }} />
         <Typography variant="h6" sx={{ flexGrow: 1 }}>
