@@ -40,7 +40,15 @@ const Contact = () => (
           />
         </Grid>
 
-        <Grid item xs={12}>
+        <Grid item xs={12} md={6}>
+          <TextField
+            fullWidth
+            label="Email"
+            placeholder="Enter your Email"
+          />
+        </Grid>
+
+        <Grid item xs={12} sx={{width:'93%'}}>
           <TextField
             fullWidth
             label="Message"
@@ -50,7 +58,9 @@ const Contact = () => (
           />
         </Grid>
 
-        <Grid item xs={12} textAlign="center" alignItems="center">
+
+      </Grid>
+        <Grid item xs={12} textAlign="center" alignItems="center" mt={3}>
           <Button
             variant="contained"
             size="large"
@@ -59,7 +69,6 @@ const Contact = () => (
             Send Message
           </Button>
         </Grid>
-      </Grid>
     </Paper>
   </Container>
 );

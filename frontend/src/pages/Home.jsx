@@ -382,7 +382,7 @@ const Home = () => {
       </Box>
 
       {/* Services Section */}
-      <Box sx={{ py: 2, mt: 6, mb: 10, width:'100%', ml:4}}>
+      <Box sx={{  mt: 6, mb: 10, width:'100%', }}>
         <Container>
           <Typography
             variant="h4"
@@ -401,13 +401,13 @@ const Home = () => {
             tailored to meet your business needs.
           </Typography>
 
-          <Grid container spacing={1} sx={{width:'100%'}}>
+          <Grid container spacing={1} xs={{ml:3}}sx={{width:'100%'}}>
             {services.map((service, index) => (
               <Grid item xs={6} md={4} key={index}>
                 <Card
                   sx={{
                     height: "100%",
-                    width: "250px",
+                    width: "350px",
                     backgroundColor: "#1e293b",
                     color: "#fff",
                     borderRadius: 3,
@@ -471,7 +471,7 @@ const Home = () => {
 
         <Grid container spacing={4}>
           {projects.map((project, index) => (
-            <Grid item xs={12} sm={6} md={3} key={index} sx={{width:"30%", height:'20%'}}>
+            <Grid item xs={12} sm={6} md={3} key={index} sx={{width:"45%", height:'20%'}}>
               <Card
                 sx={{
                   height: "100%",
@@ -646,12 +646,13 @@ const Home = () => {
         </IconButton>
         <Typography variant="body2" color="white">Facebook profile of the company</Typography>
       </Box>
-
-      </Box>
-      <Box sx={{mt:10, ml:40}}>
+            <Box sx={{mt:5,}}>
       <Typography variant="body2" color="white" sx={{mb:4}}>Contact : </Typography>
       <Typography variant="body2" color="white">Email : hr@empsoftetch.com</Typography>
       </Box>
+
+      </Box>
+
 
     </Box>
     </>
