@@ -647,7 +647,7 @@ const Home = () => {
         <Typography variant="body2" color="white">Facebook profile of the company</Typography>
       </Box>
             <Box sx={{mt:5,}}>
-      <Typography variant="body2" color="white" sx={{mb:4}}>Contact : </Typography>
+      <Typography variant="body2" color="white" sx={{mb:4}}>Contact : 6309789843 </Typography>
       <Typography variant="body2" color="white">Email : hr@empsoftetch.com</Typography>
       </Box>
 
